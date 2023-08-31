@@ -94,7 +94,7 @@ function choosePhrase(){
 
 function deleteButtons(){
     let buttonsDiv = document.querySelector("#buttons")
-    buttonsDiv.innerHTML = ``
+    buttonsDiv.style.display= "none"
 }
 
 function end(){

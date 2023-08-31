@@ -7,7 +7,7 @@ class phrase {
     }
 }
 
-let firstPhrase = new phrase("ele cortou-se com a faca.","Pronome reflexivo","Partícula de realce")
+let firstPhrase = new phrase("Ele cortou-se com a faca.","Pronome reflexivo","Partícula de realce")
 let secondPhrase = new phrase("Rangel lambeu-se após se lambuzar com doce.","Pronome reflexivo","Partícula de realce")
 let thirdPhrase = new phrase("Passavam-se dias e nada acontecia.","Partícula de realce","Partícula integrante do verbo pronominal")
 let fourthPhrase = new phrase("Viveu-se a alegria daquela vida sonhada.","Partícula de realce","Partícula integrante do verbo pronominal")

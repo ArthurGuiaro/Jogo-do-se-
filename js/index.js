@@ -93,11 +93,13 @@ function choosePhrase(){
 }
 
 function end(){
+    let buttonsDiv = document.querySelector("#buttons")
+    buttonsDiv.innerHTML = ``
     firstH1.innerHTML = "O seu resultado foi:"
     secondH1.innerHTML= `${points} pontos`
 
     let phrase = document.querySelector("#selected-phrase")
-
+    
     if(points === 100) phrase.innerHTML= "Parabéns, você acertou tudo!"
     if(points === 90) phrase.innerHTML= "Muito bom, quase lá!"
     if(points === 80 || points === 70) phrase.innerHTML= "Você foi muito bem!"
@@ -105,6 +107,8 @@ function end(){
     if(points < 39) phrase.innerHTML= "Precisa estudar mais!"
 
     result.innerHTML=""
+
+    
 }
 
 let status = 0

@@ -92,9 +92,13 @@ function choosePhrase(){
 
 }
 
-function end(){
+function deleteButtons(){
     let buttonsDiv = document.querySelector("#buttons")
     buttonsDiv.innerHTML = ``
+}
+
+function end(){
+    deleteButtons()
     firstH1.innerHTML = "O seu resultado foi:"
     secondH1.innerHTML= `${points} pontos`
 
